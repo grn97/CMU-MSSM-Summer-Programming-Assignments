@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="coffee_shop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VGHn2ef" translatesAutoresizingMaskIntoConstraints="NO" id="iRQ-yq-Ui4">
+                                <rect key="frame" x="-97" y="133.5" width="569" height="70"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="gHq-4r-N74"/>
+                                    <constraint firstAttribute="width" constant="569" id="meE-K1-iC4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INFO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8r-OB-pWH">
+                                <rect key="frame" x="168.5" y="216" width="38.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KYh-Iu-J1g">
+                                <rect key="frame" x="51.5" y="47" width="272" height="65"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rainbow Coffee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isy-xX-7QQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="272" height="44.5"/>
+                                        <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="38"/>
+                                        <color key="textColor" red="1" green="0.3411764705882353" blue="0.20000000000000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adding colors to your life." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0K-dB-1S5">
+                                        <rect key="frame" x="39" y="44.5" width="194.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Isy-xX-7QQ" firstAttribute="centerX" secondItem="KYh-Iu-J1g" secondAttribute="centerX" id="FYO-aY-fUn"/>
+                                </constraints>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mLD-zL-Z5k">
+                                <rect key="frame" x="67" y="244" width="252" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="Xz9-Dv-Bab"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="252" id="bvl-Hb-yht"/>
+                                </constraints>
+                                <string key="text">Open hours  11:00am - 9:00pm
+Phone   (669)467-9291
+Website   https://www.cornishcoffee.co.uk/rainbow-coffee/
+Email   g31897@outlook.com</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iRQ-yq-Ui4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="60m-e6-Yjd"/>
+                            <constraint firstItem="mLD-zL-Z5k" firstAttribute="top" secondItem="l8r-OB-pWH" secondAttribute="bottom" constant="7.3300000000000001" id="6at-6A-br5"/>
+                            <constraint firstItem="KYh-Iu-J1g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="9CM-52-xuW"/>
+                            <constraint firstItem="mLD-zL-Z5k" firstAttribute="top" secondItem="l8r-OB-pWH" secondAttribute="bottom" constant="7.5" id="GCO-q1-4ta"/>
+                            <constraint firstItem="mLD-zL-Z5k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KjG-2b-pyJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mLD-zL-Z5k" secondAttribute="trailing" constant="87" id="duZ-el-rMn"/>
+                            <constraint firstItem="l8r-OB-pWH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oo6-w5-HTp"/>
+                            <constraint firstItem="iRQ-yq-Ui4" firstAttribute="top" secondItem="KYh-Iu-J1g" secondAttribute="bottom" constant="21.329999999999998" id="rCW-H5-xXs"/>
+                            <constraint firstItem="KYh-Iu-J1g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ubz-Jz-0FX"/>
+                            <constraint firstItem="l8r-OB-pWH" firstAttribute="top" secondItem="iRQ-yq-Ui4" secondAttribute="bottom" constant="12.67" id="uzf-W2-hMB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="99.753694581280797"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="VGHn2ef" width="640" height="640"/>
+    </resources>
+</document>
